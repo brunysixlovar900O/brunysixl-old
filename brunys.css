@@ -82,9 +82,11 @@ iframe {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    image-rendering: pixelated;
     color: white;
     text-align: center;
 }
+
 
  button {
     display: inline-block;

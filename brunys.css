@@ -182,3 +182,14 @@ hr.short-centered::after {
     right: -5px; /* Position the ball at the end */
 }
 
+p.align-center img {
+    display: inline-block;
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
+    transition: box-shadow 0.3s; /* Smooth transition for the glow effect */
+}
+
+p.align-center img:hover {
+    box-shadow: 0 0 10px 5px white; /* White glow effect */
+}
+

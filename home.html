@@ -55,53 +55,7 @@ body {
 
 	  
   
-<div id="login-box">
-		<div class="logo">
-		</div><!-- /.logo -->
-		<div class="controls">
-      
-        <link rel="shortcut icon" href="/images/logo.gif" sizes="192x192" type="image/png">
-      <h2>Frogie's Arcade V2</h2>
-      <h5>motd: Sorry non-existent ladies, I’m taken! - Lastkio with his online girlfriend</h5>
-      <p>if you manage to get caught and you lose your chromebook or what ever device you have not my fault</p>
-		  <button class="cyan" onclick="openGame()">about:blank Cloaker (hides link from history)</button>
-      <p>you should do this to hide this from your history and keep the teachers from blocking the url</p>
-      <script>
-      var urlObj = new window.URL(window.location.href);
-        var url = window.location;
-        
-        if (url) {
-            var win;
-        
-            document.querySelector('button').onclick = function() {
-                if (win) {
-                    win.focus();
-                } else {
-                    win = window.open();
-                    win.document.body.style.margin = '0';
-                    win.document.body.style.height = '100vh';
-                    var iframe = win.document.createElement('iframe');
-                    iframe.style.border = 'none';
-                    iframe.style.width = '100%';
-                    iframe.style.height = '100%';
-                    iframe.style.margin = '0';
-                    iframe.src = url;
-                    win.document.body.appendChild(iframe);
-                    window.location.replace("https://ixl.com");
-        
-                    var interval = setInterval(function() {
-                        if (win.closed) {
-                            clearInterval(interval);
-                            win = undefined;
-        
-                        }
-                    }, 500);
-        
-        
-                }
-            };
-        }
-        </script>
+
     </div>
 
 

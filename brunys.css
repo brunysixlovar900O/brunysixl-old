@@ -168,7 +168,7 @@ hr.short-centered::after {
     width: 4px; /* Size of the ball */
     height: 4px; /* Size of the ball */
     border-radius: 50%; /* Shape the ball */
-    background-color: #5358e6; /* Color of the ball */
+    background-color: #ffffff; /* Color of the ball */
     position: absolute;
     top: 50%; /* Position the ball in the middle */
     transform: translateY(-50%); /* Center the ball vertically */

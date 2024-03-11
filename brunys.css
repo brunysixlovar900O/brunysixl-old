@@ -158,4 +158,27 @@ hr.short-centered {
     height: 2.5px; /* Adjust the height as needed */
     border: none;
     background-color: #ffffff; /* Set the background color */
+    position: relative;
 }
+
+hr.short-centered::before,
+hr.short-centered::after {
+    content: '';
+    display: inline-block;
+    width: 4px; /* Size of the ball */
+    height: 4px; /* Size of the ball */
+    border-radius: 50%; /* Shape the ball */
+    background-color: #5358e6; /* Color of the ball */
+    position: absolute;
+    top: 50%; /* Position the ball in the middle */
+    transform: translateY(-50%); /* Center the ball vertically */
+}
+
+hr.short-centered::before {
+    left: -5px; /* Position the ball at the beginning */
+}
+
+hr.short-centered::after {
+    right: -5px; /* Position the ball at the end */
+}
+

@@ -152,7 +152,11 @@ container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
-hr.centered {
+hr.short-centered {
     margin: 0 auto;
-    width: 50%; /* Adjust the width as needed */
+    width: 50%;
+    height: 1px; /* Adjust the height as needed */
+    border: none;
+    background-color: #5358e6; /* Set the background color */
 }
+

@@ -55,46 +55,8 @@ body {
 	  
     <h2>brunysixl. play and explore on the web :)</h2>
   <h3>Motd: Developing brunysixl is fun ig</h3>
-
-  <button class="cyan" onclick="openGame()">about:blank Cloaker (hides link from history)</button>
-      <h6>you should do this to hide this from your history and keep the teachers from blocking the url</h6>
-      <script>
-      var urlObj = new window.URL(window.location.href);
-        var url = window.location;
-        
-        if (url) {
-            var win;
-        
-            document.querySelector('button').onclick = function() {
-                if (win) {
-                    win.focus();
-                } else {
-                    win = window.open();
-                    win.document.body.style.margin = '0';
-                    win.document.body.style.height = '100vh';
-                    var iframe = win.document.createElement('iframe');
-                    iframe.style.border = 'none';
-                    iframe.style.width = '100%';
-                    iframe.style.height = '100%';
-                    iframe.style.margin = '0';
-                    iframe.src = url;
-                    win.document.body.appendChild(iframe);
-                    window.location.replace("https://ixl.com");
-        
-                    var interval = setInterval(function() {
-                        if (win.closed) {
-                            clearInterval(interval);
-                            win = undefined;
-        
-                        }
-                    }, 500);
-        
-        
-                }
-            };
-        }
-        </script>
-
+<button onclick="window.location.href='/';">Return Home</button>
+  
 	
 	   <hr class="short-centered">
 <h2>Android Section :)</h2>

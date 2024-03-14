@@ -201,8 +201,8 @@ p.align-center img:hover {
 
 p.brunys img {
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     transition: box-shadow 0.3s;
 }
 

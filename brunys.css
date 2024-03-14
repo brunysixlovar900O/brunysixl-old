@@ -197,3 +197,15 @@ p.align-center img:hover {
     border-left: 10px solid white; /* Adjust the width of the border as needed */
     padding-left: 10px; /* Optional: Add padding to prevent content from touching the border */
 }
+
+
+p.brunys img {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    transition: box-shadow 0.3s;
+}
+
+p.brunys img:hover {
+    box-shadow: 0 0 10px 5px white;
+}

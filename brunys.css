@@ -193,3 +193,7 @@ p.align-center img:hover {
     box-shadow: 0 0 10px 5px white; /* White glow effect */
 }
 
+.my-div {
+    border-left: 10px solid white; /* Adjust the width of the border as needed */
+    padding-left: 10px; /* Optional: Add padding to prevent content from touching the border */
+}

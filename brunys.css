@@ -154,7 +154,7 @@ container {
 
 hr.short-centered {
     margin: 0 auto;
-    width: 70%;
+    width: 50%;
     height: 2.5px; /* Adjust the height as needed */
     border: none;
     background-color: #ffffff; /* Set the background color */

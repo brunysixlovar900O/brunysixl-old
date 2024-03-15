@@ -213,13 +213,15 @@ p.brunys img:hover {
 
 button {
   padding: 10px 20px;
-  background-color: #000000;
-  border: 1px solid #ccc;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
   border-radius: 5px;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.1s, box-shadow 0.3s;
 }
 
 button:hover {
   transform: scale(1.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+

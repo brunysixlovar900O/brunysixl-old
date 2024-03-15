@@ -216,7 +216,7 @@ button {
   background-color: black;
   color: white;
   border: 1px solid white;
-  border-radius: 5px;
+  border-radius: 10px;
   transition: transform 0.1s, box-shadow 0.3s;
 }
 

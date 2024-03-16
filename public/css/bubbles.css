@@ -1,0 +1,50 @@
+.bubblewrapper {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.bubbles {
+    position: relative;
+    display: flex;
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes animate 
+{
+    0%
+    {
+        transform: translateY(100vh) scale(.25);
+    }
+    100%
+    {
+        transform: translateY(-10vh) scale(1);
+    }
+}
+
+.bubbles span {
+    position: relative;
+    width: 100px;
+    height: 20px;
+    background-color: var(--bubble-1);
+    margin: 0 0.5%;
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px var(--bubble-1-shadow),
+    0 0 25px var(--bubble-1),
+    0 0 50px var(--bubble-1); 
+    animation: animate 15s linear infinite;
+    animation-duration: calc(125s / var(--i));
+}
+
+.bubbles span:nth-child(even)
+{
+    background: var(--bubble-2);
+    box-shadow: 0 0 0 5px var(--bubble-2-shadow),
+    0 0 25px var(--bubble-2),
+    0 0 50px var(--bubble-2);
+}
+

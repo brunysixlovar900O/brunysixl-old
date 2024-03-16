@@ -1,0 +1,23 @@
+.wasd {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    max-width: 50px;
+}
+
+.m1 {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    max-width: 40px;
+}
+
+.m2 {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    max-width: 40px;
+}

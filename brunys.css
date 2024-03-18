@@ -102,10 +102,6 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
 }
 
-button:hover,
-button:focus {
-    box-shadow: 0 0 10px 5px rgba(225, 225, 225, 0.7); /* Glow effect on hover or focus */
-}
 
 
 div {
